@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 4em 13em;
+    background-color:rgb(0, 101, 178);
+}
+.header{
+    height: 8vh;
+    font-size: 2.5em;
+    color: rgb(217, 217, 217);
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.pannel{
+    background: 
+    linear-gradient(to left , lightgray 70% , rgb(173, 180, 181) 30%);
+    height: 43em;
+    display: flex;
+    border-radius: 0.4em;
+}
+.input{
+    width: 70%;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 3em 1em  3em 1em 3em 5em;
+}
+.info{
+    /* background-color: brown; */
+    width:30%;
+    padding:3em 4em
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    /* background-color: blue; */
+}
+.info div{
+    margin: 0;
+    font-size: x-large;
+}
+.con div::first-line{
+    content: "\2022";
+    font-size: 1.4em;
+    font-weight: 550;
+}
+label{
+    font-weight: bold;
+}
+input , button{
+    padding: 0.5em;
+}
